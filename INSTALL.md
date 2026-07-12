@@ -8,6 +8,14 @@
 
 目前未另外發布 GitHub Release；請使用上方的 ZIP 直接下載連結。下載後請先完整解壓縮，再依照下方步驟安裝。
 
+## 資料來源與改寫說明
+
+本套裝的技能內容來自 **Even Realities 官方 `everything-evenhub` Claude Code 技能**，並重新整理及打包成可供 Codex 安裝的 plugin／marketplace 格式。本 repository 是方便 Codex 使用者安裝的改寫套裝，原始技能與 Even Hub 平台規格仍以 Even Realities 官方資料為準。
+
+- [Even Hub 官方文件](https://hub.evenrealities.com/docs)
+- [Even Hub 官方 AI Tooling／Claude Code 說明](https://hub.evenrealities.com/docs/AI-tooling/claude-code)
+- [官方 everything-evenhub 原始倉庫](https://github.com/even-realities/everything-evenhub)
+
 ## 繁體中文安裝說明
 
 這個可攜式套裝可將 13 個 Even Realities 開發技能安裝到 Codex，涵蓋 Even G2 應用程式建立、眼鏡介面、輸入控制、裝置功能、模擬器測試及打包部署。
@@ -64,6 +72,14 @@ Download **`everything-evenhub-codex-0.1.0.zip`** from the repository root:
 [Download the Everything Even Hub Codex ZIP bundle](https://github.com/ahui3c/everything-evenhub-codex/raw/refs/heads/main/everything-evenhub-codex-0.1.0.zip)
 
 No separate GitHub Release is currently published. Use the direct ZIP link above, extract the archive completely, and then follow the installation steps below.
+
+### Source and adaptation notice
+
+The skills in this bundle are adapted from the **official Even Realities `everything-evenhub` skills for Claude Code** and repackaged as a Codex-compatible plugin and marketplace bundle. This repository is an installation-oriented Codex adaptation; the original skills and Even Hub platform specifications remain authoritative at the official Even Realities sources.
+
+- [Official Even Hub documentation](https://hub.evenrealities.com/docs)
+- [Official Even Hub AI Tooling／Claude Code guide](https://hub.evenrealities.com/docs/AI-tooling/claude-code)
+- [Official everything-evenhub repository](https://github.com/even-realities/everything-evenhub)
 
 This portable bundle installs 13 Even Realities development skills into Codex.
 
