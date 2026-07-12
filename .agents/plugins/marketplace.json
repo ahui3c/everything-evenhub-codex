@@ -1,0 +1,20 @@
+{
+  "name": "even-realities-community",
+  "interface": {
+    "displayName": "Even Realities Community"
+  },
+  "plugins": [
+    {
+      "name": "everything-evenhub",
+      "source": {
+        "source": "local",
+        "path": "./plugins/everything-evenhub"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
