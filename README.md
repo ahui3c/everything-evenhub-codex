@@ -1,5 +1,13 @@
 # Everything Even Hub for Codex
 
+## 下載套裝
+
+請下載 repository 根目錄中的 **`everything-evenhub-codex-0.1.0.zip`**：
+
+[下載 Everything Even Hub Codex ZIP 套裝](https://github.com/ahui3c/everything-evenhub-codex/raw/refs/heads/main/everything-evenhub-codex-0.1.0.zip)
+
+目前未另外發布 GitHub Release；請使用上方的 ZIP 直接下載連結。下載後請先完整解壓縮，再依照下方步驟安裝。
+
 ## 繁體中文安裝說明
 
 這個可攜式套裝可將 13 個 Even Realities 開發技能安裝到 Codex，涵蓋 Even G2 應用程式建立、眼鏡介面、輸入控制、裝置功能、模擬器測試及打包部署。
@@ -48,6 +56,14 @@ codex plugin add everything-evenhub@even-realities-community
 ---
 
 ## English installation guide
+
+### Download the bundle
+
+Download **`everything-evenhub-codex-0.1.0.zip`** from the repository root:
+
+[Download the Everything Even Hub Codex ZIP bundle](https://github.com/ahui3c/everything-evenhub-codex/raw/refs/heads/main/everything-evenhub-codex-0.1.0.zip)
+
+No separate GitHub Release is currently published. Use the direct ZIP link above, extract the archive completely, and then follow the installation steps below.
 
 This portable bundle installs 13 Even Realities development skills into Codex.
 
