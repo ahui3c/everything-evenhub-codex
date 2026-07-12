@@ -23,10 +23,14 @@ powershell -ExecutionPolicy Bypass -File .\install.ps1
 
 ### 手動安裝
 
+如果不想執行安裝腳本，請在解壓後的資料夾執行：
+
 ```powershell
 codex plugin marketplace add .
 codex plugin add everything-evenhub@even-realities-community
 ```
+
+接著重新啟動 Codex，並開啟新任務。
 
 ### 使用範例
 
@@ -47,18 +51,36 @@ codex plugin add everything-evenhub@even-realities-community
 
 This portable bundle installs 13 Even Realities development skills into Codex.
 
-### Requirements
+## Requirements
 
 - Codex CLI 0.121 or newer
 - Node.js 18 or newer for Even Hub development
 
-### Install
+## Windows one-command install
+
+Open PowerShell in this extracted folder and run:
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File .\install.ps1
 ```
 
 Restart Codex and open a new task after installation.
+
+## Manual install
+
+From this extracted folder, run:
+
+```powershell
+codex plugin marketplace add .
+codex plugin add everything-evenhub@even-realities-community
+```
+
+## Example requests
+
+- `$quickstart my-even-app`
+- `$glasses-ui Build a three-item menu`
+- `$test-with-simulator Test the current app`
+- `$build-and-deploy Package this app`
 
 Upstream source: https://github.com/even-realities/everything-evenhub
 
