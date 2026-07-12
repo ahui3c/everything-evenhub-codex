@@ -1,0 +1,26 @@
+{
+  "name": "everything-evenhub",
+  "version": "0.1.0",
+  "description": "Official Even Hub development skills adapted for Codex, covering the complete Even G2 app lifecycle.",
+  "author": {
+    "name": "Even Realities"
+  },
+  "homepage": "https://hub.evenrealities.com/docs/AI-tooling/",
+  "repository": "https://github.com/even-realities/everything-evenhub",
+  "license": "MIT",
+  "keywords": ["even-realities", "even-g2", "even-hub", "smart-glasses"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Everything Even Hub",
+    "shortDescription": "Build, test, and package apps for Even G2 glasses.",
+    "longDescription": "Thirteen Even Hub skills for scaffolding, UI, input, device APIs, state, simulator testing, automation, measurement, packaging, and reference lookups.",
+    "developerName": "Even Realities",
+    "category": "Developer Tools",
+    "capabilities": ["Code generation", "Testing", "Packaging"],
+    "defaultPrompt": [
+      "Build a new Even G2 app and test it in the simulator.",
+      "Add glasses UI and touchpad controls to this Even Hub project.",
+      "Package this Even Hub app for device testing."
+    ]
+  }
+}
